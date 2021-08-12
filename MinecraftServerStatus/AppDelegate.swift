@@ -25,6 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         SwiftRater.showLaterButton = true
         SwiftRater.appLaunched()
         
+        migrationIfNeeded()
+        
         return true
     }
 
